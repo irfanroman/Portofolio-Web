@@ -31,6 +31,11 @@ html {
     align-items    : center;
     justify-content: space-between;
     flex-direction : row;
+	position: fixed;
+	left: 100;
+	top: 0;
+	background-color: transparent rgba(0, 0, 0, 0.75);
+
 }
 
 .navbar ul li {
@@ -208,7 +213,6 @@ html {
 	background: #191919;
 	border-radius: 20px;
 	margin: 15px;
-	position: relative;
 	overflow: hidden;
 	text-align: center;
 }
@@ -230,21 +234,6 @@ h5{
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
-}
-.card .button{
-	background-color:#f9004d;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 9px 22px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-.card .button:hover{
-	background-color: transparent;
-	border: 2px solid #f9004d;
-	cursor: pointer;
 }
 
 span {
