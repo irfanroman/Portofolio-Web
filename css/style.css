@@ -24,7 +24,7 @@ html {
 }
 
 .navbar {
-    width          : 85%;
+    width          : 100%;
     margin         : auto;
     padding        : 35px 0;
     display        : flex;
@@ -32,9 +32,9 @@ html {
     justify-content: space-between;
     flex-direction : row;
 	position: fixed;
-	left: 100;
+	left: 0;
 	top: 0;
-	background-color: transparent rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.75);
 
 }
 
