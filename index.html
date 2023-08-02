@@ -3,7 +3,7 @@
 <head>
     <title>Pan web</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
 </head>
@@ -36,7 +36,7 @@
 
     <main>
         <section class="about" id="about">
-            <div class="main">
+            <div class="main" data-aos="fade-up" data-aos-duration="3000">
                 <img src="img/photo.jpg">
                 <div class="about-text">
                     <h2>About <span>Me</span></h2>
@@ -49,11 +49,11 @@
 
         <section class="Skills" id="Skills">
             <div class="service">
-                <div class="title">
+                <div class="title"  data-aos="fade-up" data-aos-duration="3000">
                     <h2>My Skills</h2>
                 </div>
         
-                <div class="box">
+                <div class="box"  data-aos="fade-up" data-aos-duration="3000">
                     <div class="card">
                         <i class="fas fa-bars"></i>
                         <h5>UIUX Web Design</h5>
@@ -95,7 +95,7 @@
         </section>
 
         <section class="uiux" id="uiux">
-            <div class="main">
+            <div class="main"  data-aos="fade-up" data-aos-duration="3000">
                 <img src="img/uiux.png">
                 <div class="about-text">
                     <h2>My<span>UIUX</span></h2>
@@ -107,7 +107,7 @@
         </section>
 
         <section class="idn" id="idn">
-            <div class="main">
+            <div class="main"  data-aos="fade-up" data-aos-duration="3000">
                 <img src="img/idn.png">
                 <div class="about-text">
                     <h2>My<span>Web Development</span></h2>
@@ -119,19 +119,20 @@
         </section>
 
         <section class="ps" id="ps">
-            <div class="main">
+            <div class="main"  data-aos="fade-up" data-aos-duration="3000">
                 <img src="img/ps.png">
                 <div class="about-text">
                     <h2>Public<span>Speaking</span></h2>
                     <h5><span>SoftSkill</span></h5>
-                    <p>Ini adalah salah satu contoh dimana saya melakukan public speaking berbahasa inggris yang diadakan bergiliran di IDN Solo. Waktu itu saya menjelaskan cara membeli sebuah mie indomie<span> By me</span></p>
+                    <p>Ini adalah salah satu contoh dimana saya melakukan public speaking berbahasa inggris yang diadakan bergiliran di IDN Solo. Waktu itu saya menjelaskan cara membeli sebuah mie indomie.</p>
                     <a href="#Skills"><button class="btn-hover color-1">Back to My Skills</button></a>
                 </div>
             </div>
         </section>
 
         <section class="Sertificate" id="Sertificate">
-            <div class="main">
+            <div class="main" data-aos="fade-up"
+            data-aos-duration="3000">
                 <div class="slider">
                     <figure>
                         <div class="slide">
@@ -165,8 +166,8 @@
         </section>
 
     </main>
-
-    	<footer id="contact">
+<section id="contact">
+    <footer>
 		<p>Muhammad Irfan Fahrurohman </p>
 		<p>Jika kalian tertarik atau butuh bantuan saya, silahkan hubungi saya di sosial media saya.</p>
 		<div class="social">
@@ -175,8 +176,14 @@
 			<a href="https://github.com/irfanroman"><img src="img/github.png" width="25px" height="25px"></a>
 		</div>
 		<p class="end">&copy; Muhammad Irfan Fahrurohman</p>
-	</footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</body>
+    </footer>
 
+	</footer>    
+</section>
+    	
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
